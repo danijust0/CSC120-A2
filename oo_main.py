@@ -22,7 +22,6 @@ def main():
     print("Adding to inventory...")
     print("Done.\n")
 
-
     # Make sure it worked by checking inventory
     print("Checking inventory...")
     shop.store_inventory()
@@ -49,4 +48,4 @@ def main():
     shop.store_inventory()
     print("Done.\n")
 
-    if __name__ == "__main__": main()
+main()
